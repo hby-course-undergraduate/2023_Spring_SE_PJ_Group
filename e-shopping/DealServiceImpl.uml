@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SPRING</ID>
+  <OriginalElement>mappedClass=com.group4.eshopping.service.impl.DealServiceImpl</OriginalElement>
+  <nodes>
+    <node x="20.0" y="1050.5">module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication</node>
+    <node x="287.5" y="63.0">module=e-shopping;bean_class=com.group4.eshopping.token.TokenInterceptor;bean_name=tokenInterceptor</node>
+    <node x="297.0" y="1082.0">module=e-shopping;bean_class=com.group4.eshopping.controller.CartController;bean_name=cartController</node>
+    <node x="287.5" y="1208.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl</node>
+    <node x="292.5" y="1019.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl</node>
+    <node x="296.0" y="1901.0">module=e-shopping;bean_class=com.group4.eshopping.controller.UserController;bean_name=userController</node>
+    <node x="291.5" y="1838.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.UserServiceImpl;bean_name=userServiceImpl</node>
+    <node x="281.0" y="1775.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl</node>
+    <node x="280.5" y="1523.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl</node>
+    <node x="294.0" y="1649.0">module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController</node>
+    <node x="289.5" y="1460.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl</node>
+    <node x="266.0" y="1271.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl</node>
+    <node x="289.5" y="1397.0">module=e-shopping;bean_class=com.group4.eshopping.controller.GoodsController;bean_name=goodsController</node>
+    <node x="285.0" y="1145.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl</node>
+    <node x="263.0" y="1334.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl</node>
+    <node x="276.0" y="1712.0">module=e-shopping;bean_class=com.group4.eshopping.controller.TransactionController;bean_name=transactionController</node>
+    <node x="291.5" y="1586.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl</node>
+    <node x="308.0" y="624.0">module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO</node>
+    <node x="290.5" y="375.0">module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO</node>
+    <node x="312.0" y="707.0">module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO</node>
+    <node x="257.0" y="956.0">module=e-shopping;bean_class=com.group4.eshopping.service.impl.TransferAccountServiceImpl;bean_name=transferAccountServiceImpl</node>
+    <node x="301.0" y="292.0">module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO</node>
+    <node x="297.0" y="790.0">module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO</node>
+    <node x="305.5" y="873.0">module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO</node>
+    <node x="310.0" y="458.0">module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO</node>
+    <node x="313.0" y="209.0">module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO</node>
+    <node x="283.5" y="541.0">module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO</node>
+    <node x="277.5" y="126.0">module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO</node>
+    <node x="302.0" y="0.0">module=e-shopping;bean_class=com.group4.eshopping.token.TokenConfig;bean_name=tokenConfig</node>
+    <node x="1520.0" y="0.0">module=e-shopping;bean_class=org.springframework.boot.ApplicationArguments;bean_name=springApplicationArguments</node>
+    <node x="0.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.http.HttpServletResponse;bean_name=httpServletResponse</node>
+    <node x="916.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.ServletContext;bean_name=servletContext</node>
+    <node x="379.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.ServletRequest;bean_name=httpServletRequest</node>
+    <node x="1508.0" y="1981.951171875">module=e-shopping;bean_class=org.springframework.data.jpa.repository.JpaContext;bean_name=jpaContext</node>
+    <node x="1368.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.http.HttpSession;bean_name=httpSession</node>
+    <node x="564.0" y="1981.951171875">module=e-shopping;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+    <node x="742.0" y="1981.951171875">module=e-shopping;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+    <node x="1073.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.ServletConfig;bean_name=servletConfig</node>
+    <node x="194.0" y="1981.951171875">module=e-shopping;bean_class=jakarta.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+    <node x="1760.0" y="0.0">module=e-shopping;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+    <node x="1222.0" y="1981.951171875">module=e-shopping;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1345.5" />
+      <point x="-88.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="45.5" y="1.3529411764705905" />
+      <point x="1015.0" y="885.8529411764706" />
+      <point x="1015.0" y="383.4333333333333" />
+      <point x="60.5" y="-3.0666666666666647" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="60.5" y="-1.5333333333333314" />
+      <point x="1005.0" y="384.9666666666667" />
+      <point x="1005.0" y="884.5" />
+      <point x="45.5" y="1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="-60.5" y="5.75" />
+      <point x="270.5" y="392.25" />
+      <point x="270.5" y="418.0" />
+      <point x="310.6666666666667" y="418.0" />
+      <point x="-40.333333333333314" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="-45.5" y="5.75" />
+      <point x="285.5" y="890.25" />
+      <point x="285.5" y="916.0" />
+      <point x="351.0" y="916.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="70.0" y="2.875" />
+      <point x="525.0" y="1789.375" />
+      <point x="525.0" y="1477.25" />
+      <point x="61.5" y="5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl" relationship="@Autowired">
+      <point x="85.0" y="-6.571428571428573" />
+      <point x="645.0" y="1275.9285714285716" />
+      <point x="645.0" y="1030.5" />
+      <point x="58.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1597.5" />
+      <point x="-59.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="60.5" y="9.200000000000001" />
+      <point x="935.0" y="395.70000000000005" />
+      <point x="935.0" y="543.3" />
+      <point x="67.5" y="-9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="67.5" y="-10.733333333333334" />
+      <point x="925.0" y="541.7666666666667" />
+      <point x="925.0" y="397.23333333333335" />
+      <point x="60.5" y="10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="50.0" y="3.066666666666668" />
+      <point x="1085.0" y="306.5666666666667" />
+      <point x="1085.0" y="632.4333333333334" />
+      <point x="43.0" y="-3.066666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="43.0" y="-4.600000000000001" />
+      <point x="1075.0" y="630.9" />
+      <point x="1075.0" y="308.1" />
+      <point x="50.0" y="4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="54.0" y="-9.200000000000001" />
+      <point x="725.0" y="792.3" />
+      <point x="725.0" y="644.7" />
+      <point x="43.0" y="9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="43.0" y="10.733333333333334" />
+      <point x="715.0" y="646.2333333333333" />
+      <point x="715.0" y="790.7666666666667" />
+      <point x="54.0" y="-10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="73.5" y="-1.3529411764705905" />
+      <point x="1405.0" y="136.1470588235294" />
+      <point x="1405.0" y="638.5666666666666" />
+      <point x="43.0" y="3.0666666666666647" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="43.0" y="1.5333333333333314" />
+      <point x="1395.0" y="637.0333333333333" />
+      <point x="1395.0" y="137.5" />
+      <point x="73.5" y="-1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="712.75" />
+      <point x="-39.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="45.0" y="11.5" />
+      <point x="396.0" y="599.0" />
+      <point x="372.5" y="599.0" />
+      <point x="21.5" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="-21.5" y="-11.5" />
+      <point x="329.5" y="599.0" />
+      <point x="351.0" y="599.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="60.5" y="-6.133333333333335" />
+      <point x="1345.0" y="380.3666666666667" />
+      <point x="1345.0" y="144.26470588235293" />
+      <point x="73.5" y="6.764705882352942" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="73.5" y="8.117647058823529" />
+      <point x="1335.0" y="145.61764705882354" />
+      <point x="1335.0" y="378.83333333333337" />
+      <point x="60.5" y="-7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="26.0" y="11.5" />
+      <point x="377.0" y="765.0" />
+      <point x="378.0" y="765.0" />
+      <point x="27.0" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="-27.0" y="-11.5" />
+      <point x="324.0" y="765.0" />
+      <point x="351.0" y="765.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="38.0" y="1.7763568394002505E-15" />
+      <point x="1235.0" y="220.5" />
+      <point x="1235.0" y="635.5" />
+      <point x="43.0" y="-1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="43.0" y="-1.533333333333335" />
+      <point x="1225.0" y="633.9666666666667" />
+      <point x="1225.0" y="222.0333333333333" />
+      <point x="38.0" y="1.533333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.UserServiceImpl;bean_name=userServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1849.5" />
+      <point x="-59.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="33.33333333333334" y="11.5" />
+      <point x="384.33333333333337" y="350.0" />
+      <point x="381.25" y="350.0" />
+      <point x="30.25" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="-30.25" y="-11.5" />
+      <point x="320.75" y="350.0" />
+      <point x="351.0" y="350.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="36.0" y="11.5" />
+      <point x="387.0" y="848.0" />
+      <point x="373.75" y="848.0" />
+      <point x="22.75" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="-22.75" y="-11.5" />
+      <point x="328.25" y="848.0" />
+      <point x="351.0" y="848.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="73.5" y="-9.470588235294116" />
+      <point x="1465.0" y="128.02941176470586" />
+      <point x="1465.0" y="893.9705882352941" />
+      <point x="45.5" y="9.470588235294116" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="45.5" y="8.117647058823529" />
+      <point x="1455.0" y="892.6176470588235" />
+      <point x="1455.0" y="129.38235294117646" />
+      <point x="73.5" y="-8.117647058823529" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.UserController;bean_name=userController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.UserServiceImpl;bean_name=userServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="39.0" y="3.0666666666666647" />
+      <point x="1255.0" y="721.5666666666666" />
+      <point x="1255.0" y="217.43333333333328" />
+      <point x="38.0" y="-3.0666666666666647" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="38.0" y="-1.5333333333333314" />
+      <point x="1245.0" y="218.9666666666667" />
+      <point x="1245.0" y="720.0333333333333" />
+      <point x="39.0" y="1.5333333333333314" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="67.5" y="3.066666666666668" />
+      <point x="815.0" y="555.5666666666666" />
+      <point x="815.0" y="880.4411764705883" />
+      <point x="45.5" y="-4.0588235294117645" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="45.5" y="-5.411764705882353" />
+      <point x="805.0" y="879.0882352941177" />
+      <point x="805.0" y="557.1" />
+      <point x="67.5" y="4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.UserController;bean_name=userController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" relationship="@Autowired">
+      <point x="55.0" y="-5.75" />
+      <point x="465.0" y="1906.75" />
+      <point x="465.0" y="1795.125" />
+      <point x="70.0" y="8.625" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="-41.0" y="5.75" />
+      <point x="290.0" y="475.25" />
+      <point x="290.0" y="501.0" />
+      <point x="323.6666666666667" y="501.0" />
+      <point x="-27.333333333333314" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="@Autowired">
+      <point x="61.5" y="1.9166666666666679" />
+      <point x="915.0" y="1473.4166666666667" />
+      <point x="915.0" y="467.9666666666667" />
+      <point x="41.0" y="-1.5333333333333314" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="58.5" y="7.666666666666667" />
+      <point x="635.0" y="1038.1666666666667" />
+      <point x="635.0" y="1146.4375" />
+      <point x="66.0" y="-10.0625" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="39.0" y="-9.200000000000001" />
+      <point x="775.0" y="709.3" />
+      <point x="775.0" y="561.7" />
+      <point x="67.5" y="9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="67.5" y="10.733333333333334" />
+      <point x="765.0" y="563.2333333333333" />
+      <point x="765.0" y="707.7666666666667" />
+      <point x="39.0" y="-10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="73.5" y="-4.058823529411768" />
+      <point x="1425.0" y="133.44117647058818" />
+      <point x="1425.0" y="724.6333333333333" />
+      <point x="39.0" y="6.133333333333333" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="39.0" y="4.599999999999998" />
+      <point x="1415.0" y="723.1" />
+      <point x="1415.0" y="134.79411764705878" />
+      <point x="73.5" y="-2.7058823529411793" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.GoodsController;bean_name=goodsController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="88.0" y="-7.666666666666668" />
+      <point x="585.0" y="1337.8333333333333" />
+      <point x="585.0" y="1163.6875" />
+      <point x="66.0" y="7.1875" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="463.75" />
+      <point x="-41.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="39.0" y="9.200000000000001" />
+      <point x="695.0" y="727.7" />
+      <point x="695.0" y="875.0294117647059" />
+      <point x="45.5" y="-9.470588235294118" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="45.5" y="-10.823529411764707" />
+      <point x="685.0" y="873.6764705882352" />
+      <point x="685.0" y="729.2333333333333" />
+      <point x="39.0" y="10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="57.0" y="-8.625" />
+      <point x="485.0" y="1651.875" />
+      <point x="485.0" y="1544.357142857143" />
+      <point x="70.5" y="9.857142857142858" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="-54.0" y="5.75" />
+      <point x="277.0" y="807.25" />
+      <point x="277.0" y="833.0" />
+      <point x="315.0" y="833.0" />
+      <point x="-36.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="380.75" />
+      <point x="-60.5" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="73.5" y="9.470588235294118" />
+      <point x="1325.0" y="146.97058823529414" />
+      <point x="1325.0" y="294.29999999999995" />
+      <point x="50.0" y="-9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="50.0" y="-10.733333333333334" />
+      <point x="1315.0" y="292.76666666666665" />
+      <point x="1315.0" y="148.32352941176475" />
+      <point x="73.5" y="10.823529411764707" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="@Autowired">
+      <point x="58.5" y="-7.666666666666668" />
+      <point x="1305.0" y="1022.8333333333334" />
+      <point x="1305.0" y="209.76666666666665" />
+      <point x="38.0" y="-10.733333333333338" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="50.0" y="6.133333333333335" />
+      <point x="1065.0" y="309.6333333333333" />
+      <point x="1065.0" y="546.3666666666667" />
+      <point x="67.5" y="-6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="67.5" y="-7.666666666666668" />
+      <point x="1055.0" y="544.8333333333333" />
+      <point x="1055.0" y="311.16666666666663" />
+      <point x="50.0" y="7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="-73.5" y="5.75" />
+      <point x="257.5" y="143.25" />
+      <point x="257.5" y="169.0" />
+      <point x="302.0" y="169.0" />
+      <point x="-49.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.TransferAccountServiceImpl;bean_name=transferAccountServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="@Autowired">
+      <point x="94.0" y="-5.75" />
+      <point x="1475.0" y="961.75" />
+      <point x="1475.0" y="126.67647058823525" />
+      <point x="73.5" y="-10.823529411764703" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.token.TokenConfig;bean_name=tokenConfig" target="module=e-shopping;bean_class=com.group4.eshopping.token.TokenInterceptor;bean_name=tokenInterceptor" relationship="@Autowired">
+      <point x="0.0" y="11.5" />
+      <point x="0.0" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="73.5" y="1.352941176470587" />
+      <point x="1385.0" y="138.8529411764706" />
+      <point x="1385.0" y="552.5" />
+      <point x="67.5" y="-1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="67.5" y="-1.533333333333335" />
+      <point x="1375.0" y="550.9666666666667" />
+      <point x="1375.0" y="140.20588235294122" />
+      <point x="73.5" y="2.7058823529411757" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="41.0" y="-6.133333333333335" />
+      <point x="1195.0" y="463.3666666666667" />
+      <point x="1195.0" y="226.63333333333333" />
+      <point x="38.0" y="6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="38.0" y="9.200000000000001" />
+      <point x="1175.0" y="229.70000000000005" />
+      <point x="1175.0" y="377.29999999999995" />
+      <point x="60.5" y="-9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="@Autowired">
+      <point x="63.5" y="-2.875" />
+      <point x="755.0" y="1216.625" />
+      <point x="755.0" y="640.1" />
+      <point x="43.0" y="4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="60.5" y="-10.733333333333334" />
+      <point x="1165.0" y="375.76666666666665" />
+      <point x="1165.0" y="231.23333333333335" />
+      <point x="38.0" y="10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="38.0" y="7.666666666666668" />
+      <point x="1185.0" y="228.16666666666663" />
+      <point x="1185.0" y="461.83333333333337" />
+      <point x="41.0" y="-7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1219.5" />
+      <point x="-63.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="59.5" y="-0.0" />
+      <point x="615.0" y="1597.5" />
+      <point x="615.0" y="1155.0625" />
+      <point x="66.0" y="-1.4375" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="-67.5" y="5.75" />
+      <point x="263.5" y="558.25" />
+      <point x="263.5" y="584.0" />
+      <point x="306.0" y="584.0" />
+      <point x="-45.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.controller.TransactionController;bean_name=transactionController" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1723.5" />
+      <point x="-75.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="43.0" y="-6.133333333333335" />
+      <point x="955.0" y="629.3666666666667" />
+      <point x="955.0" y="392.6333333333333" />
+      <point x="60.5" y="6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="60.5" y="7.666666666666668" />
+      <point x="945.0" y="394.16666666666663" />
+      <point x="945.0" y="627.8333333333333" />
+      <point x="43.0" y="-7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1786.5" />
+      <point x="-70.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="629.75" />
+      <point x="-43.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1030.5" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.controller.GoodsController;bean_name=goodsController" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1408.5" />
+      <point x="-61.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="-38.0" y="5.75" />
+      <point x="293.0" y="226.25" />
+      <point x="293.0" y="252.0" />
+      <point x="325.6666666666667" y="252.0" />
+      <point x="-25.333333333333314" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="45.5" y="4.058823529411768" />
+      <point x="1145.0" y="888.5588235294117" />
+      <point x="1145.0" y="297.3666666666667" />
+      <point x="50.0" y="-6.133333333333333" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="50.0" y="-4.599999999999998" />
+      <point x="1135.0" y="298.9" />
+      <point x="1135.0" y="887.2058823529412" />
+      <point x="45.5" y="2.7058823529411793" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="60.5" y="1.7763568394002505E-15" />
+      <point x="995.0" y="386.5" />
+      <point x="995.0" y="801.5" />
+      <point x="54.0" y="-1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="54.0" y="-1.533333333333335" />
+      <point x="985.0" y="799.9666666666667" />
+      <point x="985.0" y="388.0333333333333" />
+      <point x="60.5" y="1.533333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="@Autowired">
+      <point x="66.0" y="-4.3125" />
+      <point x="675.0" y="1152.1875" />
+      <point x="675.0" y="812.2333333333333" />
+      <point x="54.0" y="10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="43.0" y="-9.200000000000001" />
+      <point x="845.0" y="626.3" />
+      <point x="845.0" y="478.7" />
+      <point x="41.0" y="9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="41.0" y="10.733333333333334" />
+      <point x="835.0" y="480.23333333333335" />
+      <point x="835.0" y="624.7666666666667" />
+      <point x="43.0" y="-10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.TransactionController;bean_name=transactionController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl" relationship="@Autowired">
+      <point x="75.0" y="-0.0" />
+      <point x="475.0" y="1723.5" />
+      <point x="475.0" y="1605.1666666666665" />
+      <point x="59.5" y="7.666666666666667" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="54.0" y="6.133333333333333" />
+      <point x="1275.0" y="807.6333333333333" />
+      <point x="1275.0" y="214.36666666666667" />
+      <point x="38.0" y="-6.133333333333333" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="38.0" y="-4.599999999999998" />
+      <point x="1265.0" y="215.89999999999998" />
+      <point x="1265.0" y="806.1" />
+      <point x="54.0" y="4.599999999999998" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.DealServiceImpl;bean_name=dealServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" relationship="@Autowired">
+      <point x="59.5" y="-7.666666666666668" />
+      <point x="565.0" y="1589.8333333333335" />
+      <point x="565.0" y="1222.375" />
+      <point x="63.5" y="2.875" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="19.5" y="-11.5" />
+      <point x="370.5" y="682.0" />
+      <point x="379.6666666666667" y="682.0" />
+      <point x="28.66666666666667" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="0.0" y="11.5" />
+      <point x="351.0" y="682.0" />
+      <point x="331.5" y="682.0" />
+      <point x="-19.5" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1156.5" />
+      <point x="-66.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="@Autowired">
+      <point x="85.0" y="-3.2857142857142865" />
+      <point x="1025.0" y="1279.2142857142858" />
+      <point x="1025.0" y="381.9" />
+      <point x="60.5" y="-4.599999999999998" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1282.5" />
+      <point x="-85.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="40.33333333333334" y="11.5" />
+      <point x="391.33333333333337" y="433.0" />
+      <point x="371.5" y="433.0" />
+      <point x="20.5" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="-20.5" y="-11.5" />
+      <point x="330.5" y="433.0" />
+      <point x="351.0" y="433.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="45.5" y="-1.352941176470587" />
+      <point x="905.0" y="883.1470588235294" />
+      <point x="905.0" y="469.5" />
+      <point x="41.0" y="1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="41.0" y="1.533333333333335" />
+      <point x="895.0" y="471.0333333333333" />
+      <point x="895.0" y="881.7941176470588" />
+      <point x="45.5" y="-2.7058823529411757" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="-39.0" y="5.75" />
+      <point x="292.0" y="724.25" />
+      <point x="292.0" y="750.0" />
+      <point x="325.0" y="750.0" />
+      <point x="-26.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="@Autowired">
+      <point x="66.0" y="-7.1875" />
+      <point x="665.0" y="1149.3125" />
+      <point x="665.0" y="895.3235294117648" />
+      <point x="45.5" y="10.823529411764707" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.CartController;bean_name=cartController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.CartServiceImpl;bean_name=cartServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.TransferAccountServiceImpl;bean_name=transferAccountServiceImpl" relationship="@Autowired">
+      <point x="70.5" y="-3.2857142857142865" />
+      <point x="655.0" y="1531.2142857142858" />
+      <point x="655.0" y="973.25" />
+      <point x="94.0" y="5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="@Autowired">
+      <point x="70.5" y="-0.0" />
+      <point x="1155.0" y="1534.5" />
+      <point x="1155.0" y="295.83333333333337" />
+      <point x="50.0" y="-7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="214.75" />
+      <point x="-38.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="795.75" />
+      <point x="-54.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1471.5" />
+      <point x="-61.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.TransferAccountServiceImpl;bean_name=transferAccountServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="967.5" />
+      <point x="-94.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="297.75" />
+      <point x="-50.0" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="-11.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="57.0" y="-2.875" />
+      <point x="515.0" y="1657.625" />
+      <point x="515.0" y="1481.0833333333333" />
+      <point x="61.5" y="9.583333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="85.0" y="-9.857142857142858" />
+      <point x="575.0" y="1272.642857142857" />
+      <point x="575.0" y="1166.5625" />
+      <point x="66.0" y="10.0625" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="546.75" />
+      <point x="-67.5" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="73.5" y="4.0588235294117645" />
+      <point x="1365.0" y="141.5588235294117" />
+      <point x="1365.0" y="466.4333333333333" />
+      <point x="41.0" y="-3.066666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="41.0" y="-4.600000000000001" />
+      <point x="1355.0" y="464.9" />
+      <point x="1355.0" y="142.91176470588232" />
+      <point x="73.5" y="5.411764705882353" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="41.0" y="3.066666666666668" />
+      <point x="885.0" y="472.5666666666667" />
+      <point x="885.0" y="798.4333333333334" />
+      <point x="54.0" y="-3.066666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="131.75" />
+      <point x="-73.5" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="54.0" y="-4.600000000000001" />
+      <point x="875.0" y="796.9" />
+      <point x="875.0" y="474.1" />
+      <point x="41.0" y="4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.token.TokenInterceptor;bean_name=tokenInterceptor" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="74.5" />
+      <point x="-63.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="27.33333333333333" y="11.5" />
+      <point x="378.3333333333333" y="516.0" />
+      <point x="384.75" y="516.0" />
+      <point x="33.75" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="25.0" y="-11.5" />
+      <point x="376.0" y="267.0" />
+      <point x="376.3333333333333" y="267.0" />
+      <point x="25.33333333333333" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="-33.75" y="-11.5" />
+      <point x="317.25" y="516.0" />
+      <point x="351.0" y="516.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="0.0" y="11.5" />
+      <point x="351.0" y="267.0" />
+      <point x="326.0" y="267.0" />
+      <point x="-25.0" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.controller.UserController;bean_name=userController" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1912.5" />
+      <point x="-55.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.UserServiceImpl;bean_name=userServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="@Autowired">
+      <point x="59.5" y="-0.0" />
+      <point x="705.0" y="1849.5" />
+      <point x="705.0" y="726.1666666666667" />
+      <point x="39.0" y="7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="85.0" y="3.2857142857142865" />
+      <point x="535.0" y="1285.7857142857142" />
+      <point x="535.0" y="1524.642857142857" />
+      <point x="70.5" y="-9.857142857142858" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.GoodsController;bean_name=goodsController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" relationship="@Autowired">
+      <point x="61.5" y="-5.75" />
+      <point x="475.0" y="1402.75" />
+      <point x="475.0" y="1292.357142857143" />
+      <point x="85.0" y="9.857142857142858" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.GoodsController;bean_name=goodsController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" relationship="@Autowired">
+      <point x="61.5" y="5.75" />
+      <point x="595.0" y="1414.25" />
+      <point x="595.0" y="1160.8125" />
+      <point x="66.0" y="4.3125" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" relationship="">
+      <point x="-78.5" y="-0.0" />
+      <point x="0.0" y="1062.0" />
+      <point x="0.0" y="1093.5" />
+      <point x="98.5" y="1093.5" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.token.TokenConfig;bean_name=tokenConfig" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="11.5" />
+      <point x="-49.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="878.75" />
+      <point x="-45.5" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" relationship="@Autowired">
+      <point x="57.0" y="8.625" />
+      <point x="465.0" y="1669.125" />
+      <point x="465.0" y="1777.875" />
+      <point x="70.0" y="-8.625" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" relationship="">
+      <point x="39.0" y="-3.066666666666668" />
+      <point x="975.0" y="715.4333333333334" />
+      <point x="975.0" y="389.5666666666667" />
+      <point x="60.5" y="3.066666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopCancelDAO;bean_name=shopCancelDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="60.5" y="4.600000000000001" />
+      <point x="965.0" y="391.1" />
+      <point x="965.0" y="713.9" />
+      <point x="39.0" y="-4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="70.0" y="-2.875" />
+      <point x="495.0" y="1783.625" />
+      <point x="495.0" y="1541.0714285714284" />
+      <point x="70.5" y="6.571428571428572" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="88.0" y="7.666666666666667" />
+      <point x="465.0" y="1353.1666666666667" />
+      <point x="465.0" y="1461.9166666666667" />
+      <point x="61.5" y="-9.583333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1660.5" />
+      <point x="-57.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="-50.0" y="5.75" />
+      <point x="281.0" y="309.25" />
+      <point x="281.0" y="335.0" />
+      <point x="317.6666666666667" y="335.0" />
+      <point x="-33.333333333333314" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="50.0" y="-3.0666666666666647" />
+      <point x="1125.0" y="300.4333333333333" />
+      <point x="1125.0" y="804.5666666666666" />
+      <point x="54.0" y="3.0666666666666647" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="54.0" y="1.5333333333333314" />
+      <point x="1115.0" y="803.0333333333333" />
+      <point x="1115.0" y="301.9666666666667" />
+      <point x="50.0" y="-1.5333333333333314" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1534.5" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsServiceImpl;bean_name=goodsServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="66.0" y="1.4375" />
+      <point x="605.0" y="1157.9375" />
+      <point x="605.0" y="1469.5833333333333" />
+      <point x="61.5" y="-1.916666666666666" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="73.5" y="-6.764705882352942" />
+      <point x="1445.0" y="130.73529411764707" />
+      <point x="1445.0" y="810.7" />
+      <point x="54.0" y="9.200000000000003" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="54.0" y="7.666666666666668" />
+      <point x="1435.0" y="809.1666666666666" />
+      <point x="1435.0" y="132.08823529411768" />
+      <point x="73.5" y="-5.411764705882355" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="54.0" y="-6.133333333333335" />
+      <point x="795.0" y="795.3666666666667" />
+      <point x="795.0" y="558.6333333333333" />
+      <point x="67.5" y="6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsPicDAO;bean_name=goodsPicDAO" relationship="">
+      <point x="67.5" y="7.666666666666668" />
+      <point x="785.0" y="560.1666666666667" />
+      <point x="785.0" y="793.8333333333334" />
+      <point x="54.0" y="-7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.RegisterServiceImpl;bean_name=registerServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.UserServiceImpl;bean_name=userServiceImpl" relationship="@Autowired">
+      <point x="0.0" y="11.5" />
+      <point x="0.0" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="45.5" y="6.764705882352942" />
+      <point x="1295.0" y="891.2647058823529" />
+      <point x="1295.0" y="211.29999999999995" />
+      <point x="38.0" y="-9.200000000000003" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="63.5" y="8.625" />
+      <point x="555.0" y="1228.125" />
+      <point x="555.0" y="1527.9285714285716" />
+      <point x="70.5" y="-6.571428571428573" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="38.0" y="-7.666666666666668" />
+      <point x="1285.0" y="212.83333333333337" />
+      <point x="1285.0" y="889.9117647058823" />
+      <point x="45.5" y="5.411764705882355" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="-43.0" y="5.75" />
+      <point x="288.0" y="641.25" />
+      <point x="288.0" y="667.0" />
+      <point x="322.3333333333333" y="667.0" />
+      <point x="-28.666666666666686" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="41.0" y="6.133333333333335" />
+      <point x="865.0" y="475.6333333333333" />
+      <point x="865.0" y="712.3666666666667" />
+      <point x="39.0" y="-6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="39.0" y="-7.666666666666668" />
+      <point x="855.0" y="710.8333333333333" />
+      <point x="855.0" y="477.1666666666667" />
+      <point x="41.0" y="7.666666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="">
+      <point x="38.0" y="3.066666666666668" />
+      <point x="1215.0" y="223.56666666666672" />
+      <point x="1215.0" y="549.4333333333334" />
+      <point x="67.5" y="-3.066666666666668" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="67.5" y="-4.600000000000001" />
+      <point x="1205.0" y="547.9" />
+      <point x="1205.0" y="225.10000000000002" />
+      <point x="38.0" y="4.600000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" relationship="">
+      <point x="50.0" y="9.200000000000001" />
+      <point x="1045.0" y="312.70000000000005" />
+      <point x="1045.0" y="460.29999999999995" />
+      <point x="41.0" y="-9.200000000000001" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.ShopDAO;bean_name=shopDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="41.0" y="-10.733333333333334" />
+      <point x="1035.0" y="458.76666666666665" />
+      <point x="1035.0" y="314.23333333333335" />
+      <point x="50.0" y="10.733333333333334" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.UserController;bean_name=userController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.AccountServiceImpl;bean_name=accountServiceImpl" relationship="@Autowired">
+      <point x="55.0" y="5.75" />
+      <point x="505.0" y="1918.25" />
+      <point x="505.0" y="1537.7857142857142" />
+      <point x="70.5" y="3.2857142857142865" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsChangeServiceImpl;bean_name=goodsChangeServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsChangeDAO;bean_name=goodsChangeDAO" relationship="@Autowired">
+      <point x="88.0" y="-0.0" />
+      <point x="825.0" y="1345.5" />
+      <point x="825.0" y="554.0333333333333" />
+      <point x="67.5" y="1.533333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" relationship="">
+      <point x="19.0" y="-11.5" />
+      <point x="370.0" y="184.0" />
+      <point x="400.0" y="184.0" />
+      <point x="49.0" y="11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.TransferAccountDAO;bean_name=transferAccountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.CartDAO;bean_name=cartDAO" relationship="">
+      <point x="0.0" y="11.5" />
+      <point x="351.0" y="184.0" />
+      <point x="332.0" y="184.0" />
+      <point x="-19.0" y="-11.5" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" relationship="">
+      <point x="45.5" y="-6.764705882352942" />
+      <point x="745.0" y="877.7352941176471" />
+      <point x="745.0" y="641.6333333333333" />
+      <point x="43.0" y="6.133333333333335" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.OrderDAO;bean_name=orderDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.GoodsDAO;bean_name=goodsDAO" relationship="">
+      <point x="43.0" y="7.666666666666668" />
+      <point x="735.0" y="643.1666666666667" />
+      <point x="735.0" y="876.3823529411765" />
+      <point x="45.5" y="-8.117647058823529" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.EShoppingApplication;bean_name=EShoppingApplication" target="module=e-shopping;bean_class=com.group4.eshopping.controller.CartController;bean_name=cartController" relationship="">
+      <point x="78.5" y="-0.0" />
+      <point x="217.0" y="1062.0" />
+      <point x="217.0" y="1093.5" />
+      <point x="-54.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.ShopController;bean_name=shopController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" relationship="@Autowired">
+      <point x="57.0" y="2.875" />
+      <point x="545.0" y="1663.375" />
+      <point x="545.0" y="1282.5" />
+      <point x="85.0" y="-0.0" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.controller.CartController;bean_name=cartController" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.OrderServiceImpl;bean_name=orderServiceImpl" relationship="@Autowired">
+      <point x="54.0" y="-0.0" />
+      <point x="625.0" y="1093.5" />
+      <point x="625.0" y="1210.875" />
+      <point x="63.5" y="-8.625" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.service.impl.GoodsCancelServiceImpl;bean_name=goodsCancelServiceImpl" target="module=e-shopping;bean_class=com.group4.eshopping.service.impl.ShopServiceImpl;bean_name=shopServiceImpl" relationship="@Autowired">
+      <point x="85.0" y="6.571428571428572" />
+      <point x="485.0" y="1289.0714285714284" />
+      <point x="485.0" y="1465.75" />
+      <point x="61.5" y="-5.75" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" relationship="">
+      <point x="39.0" y="-1.7763568394002505E-15" />
+      <point x="1105.0" y="718.5" />
+      <point x="1105.0" y="303.5" />
+      <point x="50.0" y="1.7763568394002505E-15" />
+    </edge>
+    <edge source="module=e-shopping;bean_class=com.group4.eshopping.dao.AccountDAO;bean_name=accountDAO" target="module=e-shopping;bean_class=com.group4.eshopping.dao.UserDAO;bean_name=userDAO" relationship="">
+      <point x="50.0" y="1.533333333333335" />
+      <point x="1095.0" y="305.0333333333333" />
+      <point x="1095.0" y="716.9666666666667" />
+      <point x="39.0" y="-1.533333333333335" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.6303703703703705" showDependencies="false" x="800.8129770681143" y="1486.6404230317273" />
+  <SelectedNodes />
+  <Categories>
+    <Category>属性</Category>
+    <Category>显示边框</Category>
+    <Category>本地上下文</Category>
+  </Categories>
+</Diagram>
+

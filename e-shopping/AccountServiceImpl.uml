@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.group4.eshopping.service.impl.AccountServiceImpl</OriginalElement>
+  <nodes>
+    <node x="1411.9351851851852" y="1037.0">com.group4.eshopping.service.impl.GoodsChangeServiceImpl</node>
+    <node x="1857.9351851851852" y="1048.0">com.group4.eshopping.service.impl.GoodsCancelServiceImpl</node>
+    <node x="709.9351851851852" y="1117.5">com.group4.eshopping.service.impl.TransferAccountServiceImpl</node>
+    <node x="2527.935185185185" y="1094.5">com.group4.eshopping.service.impl.CartServiceImpl</node>
+    <node x="3569.935185185185" y="956.5">com.group4.eshopping.service.impl.UserServiceImpl</node>
+    <node x="2797.935185185185" y="1117.5">com.group4.eshopping.service.impl.RegisterServiceImpl</node>
+    <node x="413.9351851851852" y="1094.5">com.group4.eshopping.service.impl.OrderServiceImpl</node>
+    <node x="10.935185185185219" y="795.0">com.group4.eshopping.service.impl.AccountServiceImpl</node>
+    <node x="0.0" y="0.0">com.group4.eshopping.service.AccountService</node>
+    <node x="3159.935185185185" y="910.5">com.group4.eshopping.service.impl.GoodsServiceImpl</node>
+    <node x="1075.9351851851852" y="1014.0">com.group4.eshopping.service.impl.ShopServiceImpl</node>
+    <node x="1984.4351851851852" y="345.5">org.springframework.stereotype.Service</node>
+    <node x="2257.935185185185" y="1140.5">com.group4.eshopping.service.impl.DealServiceImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.group4.eshopping.service.impl.GoodsCancelServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-119.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.GoodsChangeServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-130.5" />
+      <point x="1624.9351851851852" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.GoodsServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-257.0" />
+      <point x="3354.935185185185" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.AccountServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="95.75" y="-372.5" />
+      <point x="298.1851851851852" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.UserServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-211.0" />
+      <point x="3741.935185185185" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.CartServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-73.0" />
+      <point x="2652.935185185185" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.ShopServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-153.5" />
+      <point x="1233.9351851851852" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.TransferAccountServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-50.0" />
+      <point x="882.9351851851852" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.RegisterServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-50.0" />
+      <point x="2968.935185185185" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.DealServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-27.0" />
+      <point x="2382.935185185185" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.AccountServiceImpl" target="com.group4.eshopping.service.AccountService" relationship="REALIZATION">
+      <point x="-95.75" y="-372.5" />
+      <point x="106.68518518518522" y="770.0" />
+      <point x="191.5" y="770.0" />
+      <point x="0.0" y="372.5" />
+    </edge>
+    <edge source="com.group4.eshopping.service.impl.OrderServiceImpl" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-73.0" />
+      <point x="551.9351851851852" y="770.0" />
+      <point x="2047.9351851851852" y="770.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.7369852567361465" showDependencies="false" x="3302.958334770462" y="792.8761080260753" />
+  <SelectedNodes>
+    <node>com.group4.eshopping.service.impl.AccountServiceImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
